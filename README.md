@@ -2,19 +2,19 @@
 
 ## Ambiente Linux (Ou WSL)
 
-- Para rodar o sistema crie um ambiente virtual, com o seguinte comando: 
-
-    `python -m venv venv`
-    
-- Ative o ambiente virtual:
-
-    `source venv/bin/activate` 
-    
 - Faça o clone do projeto, e entre na pasta como no exemplo:
 
     `cd /home/hugosousa111/lighthouse/sitechecker/`
     
 - Obs: Sempre que nesse tutorial aparecer o caminho `/home/hugosousa111/lighthouse/sitechecker/` ele deve ser trocado pelo caminho do projeto no seu computador, aqui é usado apenas como exemplo
+
+- Crie um ambiente virtual, com o seguinte comando: 
+
+    `python -m venv venv`
+    
+- Ative o ambiente virtual:
+
+    `source venv/bin/activate`     
 
 - Altere a linha 9 do arquivo `sitechecker/__main__.py` para o caminho do projeto do seu computador, esse caminho é utilizado para salvar o arquivo de logs do sistema (`sitechecker.log`)
 
